@@ -144,7 +144,7 @@
     </Link>
     <PostBuildEvent>
       <Message>Installing DLL...</Message>
-      <Command>copy "$(TargetPath)" "C:\Users\Xavier\AppData\Local\ModOrganizer\Fallout NV\mods\ppNVSE\nvse\plugins\pNVSE.dll"</Command>
+      <Command>copy "$(TargetPath)" "C:\Games\Steam\steamapps\common\Fallout New Vegas\Data\nvse\plugins\Parico_Plugin.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug GECK|Win32'">
